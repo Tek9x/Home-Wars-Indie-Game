@@ -1,0 +1,9 @@
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\UnityEngine.dll
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\bin\Debug\UnityEngine.xml
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\obj\Debug\Assembly-CSharp.dll
+C:\Users\Sean\Desktop\HomeWars-1024\Assembly-CSharp\obj\Debug\Assembly-CSharp.pdb

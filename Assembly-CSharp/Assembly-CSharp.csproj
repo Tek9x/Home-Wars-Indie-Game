@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC9A6D3B-7803-466F-A2BC-3D97C329F385}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>G:\Steam Games\Home Wars\Home Wars_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>G:\Steam Games\Home Wars\Home Wars_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>G:\Steam Games\Home Wars\Home Wars_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>G:\Steam Games\Home Wars\Home Wars_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AedesAlbopictus.cs" />
+    <Compile Include="AereoMissileAAFeF.cs" />
+    <Compile Include="AereoMissileAARadarPassivo.cs" />
+    <Compile Include="AereoMissileATFeF.cs" />
+    <Compile Include="AereoMissileATGuidato.cs" />
+    <Compile Include="AreaColla.cs" />
+    <Compile Include="AreaFiloSpinato.cs" />
+    <Compile Include="AreaTrappola.cs" />
+    <Compile Include="ArtObserverPartenza.cs" />
+    <Compile Include="AttacchiAlleatiSpecialiScript.cs" />
+    <Compile Include="ATT_150mmHowitzer.cs" />
+    <Compile Include="ATT_150mmSelfPropelledHowitzer.cs" />
+    <Compile Include="ATT_320mmSelfPropelledHowitzer.cs" />
+    <Compile Include="ATT_AntiAircraftInfantry.cs" />
+    <Compile Include="ATT_ArmoredAirship.cs" />
+    <Compile Include="ATT_ArtilleryPrototype.cs" />
+    <Compile Include="ATT_AssaultTroop.cs" />
+    <Compile Include="ATT_AssaultTroopArma.cs" />
+    <Compile Include="ATT_AssaultVehicle.cs" />
+    <Compile Include="ATT_AttackHelicopter.cs" />
+    <Compile Include="ATT_BattleTank.cs" />
+    <Compile Include="ATT_Bomber.cs" />
+    <Compile Include="ATT_FighterAircraft.cs" />
+    <Compile Include="ATT_FlamethrowerArma.cs" />
+    <Compile Include="ATT_FlamethrowerInfantry.cs" />
+    <Compile Include="ATT_GrenadeLauncher.cs" />
+    <Compile Include="ATT_Grenadier.cs" />
+    <Compile Include="ATT_GroundAttack.cs" />
+    <Compile Include="ATT_Gunship.cs" />
+    <Compile Include="ATT_HeavyAntiAircraftVehicle.cs" />
+    <Compile Include="ATT_HeavyFightingVehicle.cs" />
+    <Compile Include="ATT_HeavyHelicopter.cs" />
+    <Compile Include="ATT_HeavyRifleman.cs" />
+    <Compile Include="ATT_HeavyTank.cs" />
+    <Compile Include="ATT_InterceptorAircraft.cs" />
+    <Compile Include="ATT_LightAntiAircraftVehicle.cs" />
+    <Compile Include="ATT_LightAntiTankInfantry.cs" />
+    <Compile Include="ATT_LightFightingVehicle.cs" />
+    <Compile Include="ATT_LightHelicopter.cs" />
+    <Compile Include="ATT_LightRifleman.cs" />
+    <Compile Include="ATT_LightTank.cs" />
+    <Compile Include="ATT_LongRangeBomber.cs" />
+    <Compile Include="ATT_MachineGun.cs" />
+    <Compile Include="ATT_Marksman.cs" />
+    <Compile Include="ATT_Mech.cs" />
+    <Compile Include="ATT_Mortar.cs" />
+    <Compile Include="ATT_MortarVehicle.cs" />
+    <Compile Include="ATT_Observer.cs" />
+    <Compile Include="ATT_ParaTransport.cs" />
+    <Compile Include="ATT_ReconVehicle.cs" />
+    <Compile Include="ATT_Rifleman.cs" />
+    <Compile Include="ATT_RocketArtillery.cs" />
+    <Compile Include="ATT_Sapper.cs" />
+    <Compile Include="ATT_Sniper.cs" />
+    <Compile Include="ATT_Spitlead.cs" />
+    <Compile Include="ATT_StrategicBomber.cs" />
+    <Compile Include="ATT_StrikeAircraft.cs" />
+    <Compile Include="ATT_SupplyHelicopter.cs" />
+    <Compile Include="ATT_SupplyTruck.cs" />
+    <Compile Include="ATT_ToxicCloudArma.cs" />
+    <Compile Include="ATT_WarMachine.cs" />
+    <Compile Include="BattagliaVeloceScript.cs" />
+    <Compile Include="BlattaOrientalis.cs" />
+    <Compile Include="BombaCluster.cs" />
+    <Compile Include="BombaHighExplosive.cs" />
+    <Compile Include="BombaIncendiary.cs" />
+    <Compile Include="BombaLaser.cs" />
+    <Compile Include="BombaToxic.cs" />
+    <Compile Include="BrachinusBellicosus.cs" />
+    <Compile Include="CameraCasa.cs" />
+    <Compile Include="CamionPerConvoglio.cs" />
+    <Compile Include="CamponotusSaundersi.cs" />
+    <Compile Include="CanvasManualeScript.cs" />
+    <Compile Include="CaricaDati.cs" />
+    <Compile Include="CaricamentoDaScenaCaricamento.cs" />
+    <Compile Include="CaricaScene.cs" />
+    <Compile Include="CassaRifornimentiLanciata.cs" />
+    <Compile Include="CentroStanza.cs" />
+    <Compile Include="CetoniaAurata.cs" />
+    <Compile Include="ColliderAereaAttNemici.cs" />
+    <Compile Include="ColliderAreaEffetto.cs" />
+    <Compile Include="ColliderAreaTrappole.cs" />
+    <Compile Include="ColliderCentroStanza.cs" />
+    <Compile Include="ColliderEsercito.cs" />
+    <Compile Include="ColliderLimitiStanze.cs" />
+    <Compile Include="ColliderMirinoParà.cs" />
+    <Compile Include="ColliderObbiettivo.cs" />
+    <Compile Include="ColpoArtiglieriaDaObserver.cs" />
+    <Compile Include="CreazioneCampagnaScript.cs" />
+    <Compile Include="CulexPipiens.cs" />
+    <Compile Include="DatiGeneraliMunizione.cs" />
+    <Compile Include="DatiOrdignoEsterno.cs" />
+    <Compile Include="DatiOrdignoInterno.cs" />
+    <Compile Include="DatiProiettile.cs" />
+    <Compile Include="DepositoMunizioniScript.cs" />
+    <Compile Include="DorylusNigricans.cs" />
+    <Compile Include="FormicaFusca.cs" />
+    <Compile Include="Fumogeno.cs" />
+    <Compile Include="GestioneComandanteInUI.cs" />
+    <Compile Include="GestioneEsercitiAlleati.cs" />
+    <Compile Include="GestioneFPSInUI.cs" />
+    <Compile Include="GestioneMunizioniMercatoESupporto.cs" />
+    <Compile Include="GestioneRisorseEHeadquartiers.cs" />
+    <Compile Include="GestioneSblocchi.cs" />
+    <Compile Include="GestioneSuoniCamera.cs" />
+    <Compile Include="GestioneSuoniCasa.cs" />
+    <Compile Include="GestioneUIPerNemici.cs" />
+    <Compile Include="GestioniSuoniMenuVari.cs" />
+    <Compile Include="GestoreNeutroStrategia.cs" />
+    <Compile Include="GestoreNeutroTattica.cs" />
+    <Compile Include="GromphadorhinaPortentosa.cs" />
+    <Compile Include="GryllusCampestris.cs" />
+    <Compile Include="HeliMissileATFeF.cs" />
+    <Compile Include="HeliMissileATGuidato.cs" />
+    <Compile Include="HeliPerEstrazione.cs" />
+    <Compile Include="HemideinaThoracica.cs" />
+    <Compile Include="HemipepsisUstulata.cs" />
+    <Compile Include="IANemicoStrategia.cs" />
+    <Compile Include="IANemicoTattica.cs" />
+    <Compile Include="ImpostazioniScript.cs" />
+    <Compile Include="InfoCasa.cs" />
+    <Compile Include="InfoGenericheAlleati.cs" />
+    <Compile Include="InfoGenericheNemici.cs" />
+    <Compile Include="InfoMunizionamento.cs" />
+    <Compile Include="InfoStanza.cs" />
+    <Compile Include="InizioLivelloScript.cs" />
+    <Compile Include="laserProiettile.cs" />
+    <Compile Include="LatrodectusMactans.cs" />
+    <Compile Include="LeiurusQuinquestriatus.cs" />
+    <Compile Include="LocustaMigratoria.cs" />
+    <Compile Include="MantisReligiosa.cs" />
+    <Compile Include="MenuInizialeScript.cs" />
+    <Compile Include="MezzoMissileTASemiAttivo.cs" />
+    <Compile Include="MezzoMissileTTGuidato.cs" />
+    <Compile Include="MezzoMissileTTSemiAttivo.cs" />
+    <Compile Include="MinaSaltante.cs" />
+    <Compile Include="MinaSemplice.cs" />
+    <Compile Include="MinaVolante.cs" />
+    <Compile Include="MissileAAFanteria.cs" />
+    <Compile Include="MissileDaCrociera.cs" />
+    <Compile Include="mm105Proiettile.cs" />
+    <Compile Include="mm150ArtiglieriaProietPenetrante.cs" />
+    <Compile Include="mm150ArtiglieriaProiettile.cs" />
+    <Compile Include="mm150Proiettili.cs" />
+    <Compile Include="mm1800ArtiglieriaProiettile.cs" />
+    <Compile Include="mm20Proiettile.cs" />
+    <Compile Include="mm30Proiettile.cs" />
+    <Compile Include="mm320ArtiglieriaProietPenetrante.cs" />
+    <Compile Include="mm320ArtiglieriaProiettile.cs" />
+    <Compile Include="mm320Proiettile.cs" />
+    <Compile Include="mm40GranataProiettile.cs" />
+    <Compile Include="mm81ArtiglieriaProiettile.cs" />
+    <Compile Include="mm81proiettile.cs" />
+    <Compile Include="MOV_150mmHowitzer.cs" />
+    <Compile Include="MOV_150mmSelfPropelledHowitzer.cs" />
+    <Compile Include="MOV_320mmSelfPropelledHowitzer.cs" />
+    <Compile Include="MOV_AntiAircraftInfantry.cs" />
+    <Compile Include="MOV_ArmoredAirship.cs" />
+    <Compile Include="MOV_ArtilleryPrototype.cs" />
+    <Compile Include="MOV_AssaultTroop.cs" />
+    <Compile Include="MOV_AssaultVehicle.cs" />
+    <Compile Include="MOV_AttackHelicopter.cs" />
+    <Compile Include="MOV_AUTOM_ArmoredAirship.cs" />
+    <Compile Include="MOV_AUTOM_AttackHelicopter.cs" />
+    <Compile Include="MOV_AUTOM_Bomber.cs" />
+    <Compile Include="MOV_AUTOM_FighterAircraft.cs" />
+    <Compile Include="MOV_AUTOM_GroundAttack.cs" />
+    <Compile Include="MOV_AUTOM_Gunship.cs" />
+    <Compile Include="MOV_AUTOM_HeavyHelicopter.cs" />
+    <Compile Include="MOV_AUTOM_InterceptorAircraft.cs" />
+    <Compile Include="MOV_AUTOM_LightHelicopter.cs" />
+    <Compile Include="MOV_AUTOM_LongRangeBomber.cs" />
+    <Compile Include="MOV_AUTOM_ParaTransport.cs" />
+    <Compile Include="MOV_AUTOM_Spitlead.cs" />
+    <Compile Include="MOV_AUTOM_StrategicBomber.cs" />
+    <Compile Include="MOV_AUTOM_StrikeAircraft.cs" />
+    <Compile Include="MOV_AUTOM_SupplyHelicopter.cs" />
+    <Compile Include="MOV_BattleTank.cs" />
+    <Compile Include="MOV_Bomber.cs" />
+    <Compile Include="MOV_FighterAircraft.cs" />
+    <Compile Include="MOV_FlamethrowerInfantry.cs" />
+    <Compile Include="MOV_GrenadeLauncher.cs" />
+    <Compile Include="MOV_Grenadier.cs" />
+    <Compile Include="MOV_GroundAttack.cs" />
+    <Compile Include="MOV_Gunship.cs" />
+    <Compile Include="MOV_HeavyAntiAircraftVehicle.cs" />
+    <Compile Include="MOV_HeavyFightingVehicle.cs" />
+    <Compile Include="MOV_HeavyHelicopter.cs" />
+    <Compile Include="MOV_HeavyRifleman.cs" />
+    <Compile Include="MOV_HeavyTank.cs" />
+    <Compile Include="MOV_InterceptorAircraft.cs" />
+    <Compile Include="MOV_LightAntiAircraftVehicle.cs" />
+    <Compile Include="MOV_LightAntiTankInfantry.cs" />
+    <Compile Include="MOV_LightFightingVehicle.cs" />
+    <Compile Include="MOV_LightHelicopter.cs" />
+    <Compile Include="MOV_LightRifleman.cs" />
+    <Compile Include="MOV_LightTank.cs" />
+    <Compile Include="MOV_LongRangeBomber.cs" />
+    <Compile Include="MOV_MachineGun.cs" />
+    <Compile Include="MOV_Marksman.cs" />
+    <Compile Include="MOV_Mech.cs" />
+    <Compile Include="MOV_Mortar.cs" />
+    <Compile Include="MOV_MortarVehicle.cs" />
+    <Compile Include="MOV_Observer.cs" />
+    <Compile Include="MOV_ParaTransport.cs" />
+    <Compile Include="MOV_ReconVehicle.cs" />
+    <Compile Include="MOV_Rifleman.cs" />
+    <Compile Include="MOV_RocketArtillery.cs" />
+    <Compile Include="MOV_Sapper.cs" />
+    <Compile Include="MOV_Sniper.cs" />
+    <Compile Include="MOV_Spitlead.cs" />
+    <Compile Include="MOV_StrategicBomber.cs" />
+    <Compile Include="MOV_StrikeAircraft.cs" />
+    <Compile Include="MOV_SupplyHelicopter.cs" />
+    <Compile Include="MOV_SupplyTruck.cs" />
+    <Compile Include="MOV_WarMachine.cs" />
+    <Compile Include="MuscaDomestica.cs" />
+    <Compile Include="MusicaScript.cs" />
+    <Compile Include="NavigazioneConCamminata.cs" />
+    <Compile Include="NavigazioneConSalti.cs" />
+    <Compile Include="NavigazioneConVolo.cs" />
+    <Compile Include="NezaraViridula.cs" />
+    <Compile Include="ObbiettivoTatticoScript.cs" />
+    <Compile Include="OcypusOlens.cs" />
+    <Compile Include="OffMeshCollegamento.cs" />
+    <Compile Include="OltreScene.cs" />
+    <Compile Include="PandinusImperator.cs" />
+    <Compile Include="PanePerConvoglio.cs" />
+    <Compile Include="ParaponeraClavata.cs" />
+    <Compile Include="PhoneutriaNigriventer.cs" />
+    <Compile Include="PresenzaAlleataStrategica.cs" />
+    <Compile Include="PresenzaAlleato.cs" />
+    <Compile Include="PresenzaEdificio.cs" />
+    <Compile Include="PresenzaNemicaStrategica.cs" />
+    <Compile Include="PresenzaNemico.cs" />
+    <Compile Include="PresenzaRisorsa.cs" />
+    <Compile Include="PresenzaSblocco.cs" />
+    <Compile Include="PresenzaTrappola.cs" />
+    <Compile Include="PrimaCamera.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PulsFitPerBattaglia.cs" />
+    <Compile Include="PulsFitPerStrategia.cs" />
+    <Compile Include="PulsFitVarie.cs" />
+    <Compile Include="QuadMorteScript.cs" />
+    <Compile Include="QuantitàMunizione.cs" />
+    <Compile Include="RazzoArtCluster.cs" />
+    <Compile Include="RazzoArtHighExplosive.cs" />
+    <Compile Include="RazzoArtIncendiary.cs" />
+    <Compile Include="RazzoArtToxic.cs" />
+    <Compile Include="RazzoDaPod.cs" />
+    <Compile Include="RazzoLightAntiTank.cs" />
+    <Compile Include="RomaleaGuttata.cs" />
+    <Compile Include="SalvaDati.cs" />
+    <Compile Include="ScalataCollider.cs" />
+    <Compile Include="SchistocercaGregaria.cs" />
+    <Compile Include="SecondaCamera.cs" />
+    <Compile Include="SelettoreLivelli.cs" />
+    <Compile Include="Selezionamento.cs" />
+    <Compile Include="SelezionamentoInStrategia.cs" />
+    <Compile Include="SolenopsisInvicta.cs" />
+    <Compile Include="SteamManager.cs" />
+    <Compile Include="SteatodaTriangulosa.cs" />
+    <Compile Include="TabanusBovinus.cs" />
+    <Compile Include="TegenariaDomestica.cs" />
+    <Compile Include="TerzaCamera.cs" />
+    <Compile Include="TheraphosaBlondi.cs" />
+    <Compile Include="TitanusGiganteus.cs" />
+    <Compile Include="VarieMappaLocale.cs" />
+    <Compile Include="VarieMappaStrategicaCasa.cs" />
+    <Compile Include="VespaCrabro.cs" />
+    <Compile Include="VespaMandarinia.cs" />
+    <Compile Include="VespulaGermanica.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
